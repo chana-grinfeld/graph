@@ -1,0 +1,14 @@
+<p-toolbar>
+    <ng-template pTemplate="end">
+        <span class="text-primary font-semibold text-xl">של משרד הבריאות BI - פורטל ה</span>
+    </ng-template>
+    <ng-template pTemplate="center">
+        <span class="text-primary font-semibold text-xl">עדכון אחרון: </span>
+    </ng-template>
+</p-toolbar>
+
+<div class="card flex justify-content-right" >
+    <p-button icon="pi pi-home" [style]="{'width':'200px'}" (onClick)="clickHome()"  
+    ></p-button>
+    <p-panelMenu [model]="items" [style]="{'width':'200px'}"  [multiple]="true"></p-panelMenu>
+</div>

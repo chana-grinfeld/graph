@@ -1,0 +1,26 @@
+.header{
+    color: yellow;
+    font-size: 30px;
+    text-align-last: center;
+   }
+.p{
+    color: gray;
+    font-size: 30px;
+    text-align-last: center;
+   }
+.p-toolbar {
+    border: solid gray 1px;
+    flex: 1 1 auto;
+    justify-content: flex-end /* for right*/
+}
+   .p-panelmenu-icon {
+    order: 1; // to be the first item on right side.
+   }
+   .p-menuitems-text {
+    flex-grow: 1; // to fill the whole space and push the icon to the end
+   }
+   .p-panelMenu {
+    text-align-last: center;
+    align-items: start;
+   }
+  
